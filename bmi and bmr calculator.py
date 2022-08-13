@@ -1,7 +1,6 @@
 import sys
 
 print("Please enter either 'Metric' or 'Imperial' to set the calculator's properties.")
-#def main():
 
 Age = int(input("Please Enter your age"))
 Gender = str(input("Please enter whether you are male or female"))
@@ -11,10 +10,5 @@ Height /= 100
 BMI = Weight / (Height ** 2)
 print("Your Body Mass Index (BMI) is: " + "{:.2f}".format(BMI))
 
-def metric(weight, height):
-    return (weight *)
 
 
-if
-
-weight = 0.00
