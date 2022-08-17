@@ -10,5 +10,9 @@ Height /= 100
 BMI = Weight / (Height ** 2)
 print("Your Body Mass Index (BMI) is: " + "{:.2f}".format(BMI))
 
+if (Gender == "male"):
+    BMR = 88.362 + (13.397 * Weight) + (4.799 * Height) - (5.677 * Age)
+    print("" + BMR)
+
 
 
